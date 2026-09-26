@@ -1,0 +1,23 @@
+{
+  "total_requests": 26,
+  "blocked_requests": 21,
+  "block_rate": 0.8076923076923077,
+  "rate_limit_hits": 16,
+  "judge_checks": 0,
+  "judge_fails": 0,
+  "judge_fail_rate": 0.0,
+  "alerts": [
+    {
+      "metric": "block_rate",
+      "value": 0.8076923076923077,
+      "threshold": 0.5,
+      "message": "Block rate exceeded threshold"
+    },
+    {
+      "metric": "rate_limit_hits",
+      "value": 16,
+      "threshold": 5,
+      "message": "Rate limit hits exceeded threshold"
+    }
+  ]
+}

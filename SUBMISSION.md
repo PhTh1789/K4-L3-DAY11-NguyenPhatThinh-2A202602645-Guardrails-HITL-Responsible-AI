@@ -1,5 +1,12 @@
 # Hướng dẫn nộp bài & checklist (SUBMISSION)
 
+## Thông tin sinh viên
+- **Họ và tên:** Nguyễn Phát Thịnh
+- **MSSV:** 2A202602645
+- **Tên Repo:** `K4-L3-DAY11-NguyenPhatThinh-2A202602645-Guardrails-HITL-Responsible-AI`
+- **Bonus lựa chọn:** **Bonus B1** (Tấn công làm rò rỉ Red Default thành công 5/5 — tối đa +5 điểm)
+- **Kết quả tự chấm (`scripts/grade.py`):** 10/10 Public Tests Passed (100%), Technical Failure: False
+
 > ⚠️ **Bài CÁ NHÂN:** mỗi MSSV nộp **một** repo / một link lên LMS.  
 > Điểm: [`RUBRIC.md`](RUBRIC.md) · Quy định: [`RULES.md`](RULES.md) · Cách làm: [`CHECKPOINTS.md`](CHECKPOINTS.md) (Checkpoint 1 → 5).  
 > Artifact chấm = file trong `outputs/` — **không** viết `report/*.md` tay.  
@@ -134,11 +141,11 @@ K4-L3-DAY11-<HoVaTen>-<MSSV>-Guardrails-HITL-Responsible-AI/
 
 ## 5. Checklist trước khi nộp link
 
-- [ ] Có `outputs/results.json` và **validate** được với `schemas/results.schema.json`
-- [ ] Có `outputs/attack_results.json` (unsafe + guards)
-- [ ] **Không** commit `.env` / API key
-- [ ] `outputs/` không chứa placeholder tự tạo tay (file do `python src/main.py --part 3|4` sinh ra)
-- [ ] Đã chạy tự kiểm:
+- [x] Có `outputs/results.json` và **validate** được với `schemas/results.schema.json`
+- [x] Có `outputs/attack_results.json` (unsafe + guards)
+- [x] **Không** commit `.env` / API key
+- [x] `outputs/` không chứa placeholder tự tạo tay (file do `python src/main.py --part 3|4` sinh ra)
+- [x] Đã chạy tự kiểm:
 
 **Windows (PowerShell):**
 
@@ -158,6 +165,6 @@ pytest tests/public -q
 python scripts/grade.py --submission-dir . --out outputs/grade_report.json
 ```
 
-- [ ] Nộp **link repo** đúng hạn lên LMS / CodeLabs
+- [x] Nộp **link repo** đúng hạn lên LMS / CodeLabs
 
 > Máy không chạy được (thiếu lib, sai path, lỗi cú pháp) → phần chấm máy = lỗi kỹ thuật — sửa đóng gói trước khi nộp.
